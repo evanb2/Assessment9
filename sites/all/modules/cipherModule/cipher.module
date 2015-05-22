@@ -58,15 +58,15 @@ function cipher_form_submit($form, &$form_state) {
     $flip = array_flip($alphabet);
 
     $n = count($shift_phrase);
-    var_dump($shift_phrase);
+    // var_dump($shift_phrase);
 
     $output = "";
 
-    for ($i = 0; $i < $n; $i++)
+    for ($i = 0; $i < $n; $i++) {
         $output .= $alphabet[($flip[$shift_phrase[$i]] + $shift_value) % 26];
-    return $output;
+    }
 
-    $_SESSION['output'] = $output;
+    $_SESSION['output'] = "Encrypted Phrase: " . $output;
     $form_state['redirect'] = 'cipher_success';
 }
 
