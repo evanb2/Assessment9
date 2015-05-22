@@ -1,0 +1,6 @@
+<?php
+
+function cipher_menu() {
+    $items = array();
+    $items['']
+}
