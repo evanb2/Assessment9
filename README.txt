@@ -1,3 +1,17 @@
+Shift Cipher Module Drupal Site
+By Evan Butler
+Date: May 22, 2015.
+
+Custom module which encrypts user input using a Shift Cipher.
+
+Database Name: evan_cipher
+    Username: epicodus
+    Password: epicodus
+
+Drupal Site Maintenance Account:
+    Username: epicodus
+    Password: epicodus
+
 
 CONTENTS OF THIS FILE
 ---------------------
